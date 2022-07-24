@@ -40,7 +40,7 @@ body{
     background-image: url(../images/bg-pattern-top.svg) ,url(../images/bg-pattern-bottom.svg);
     background-size: 80%;
     background-repeat: no-repeat;
-    background-position: -150% 60% ,850px 500px  ;
+    background-position: -160% 70% ,950px 600px  ;
     position: relative;
 }
 @media (min-width:9px) and (max-width:1440PX){
@@ -64,12 +64,12 @@ body{
 /* End Global Rules */
 .content{
     border-radius: 20px;
-    width: 450px;
+    width: 400px;
     height: 5   00px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,50%);
+    transform: translate(-50% ,25%);
     text-align: center;
     background-color: white;
 }
@@ -91,7 +91,7 @@ body{
 }
 
 .content .container .top{
-    width: 450px;
+    width: 400px;
     height: 180px;
     background-image: url(../images/bg-pattern-card.svg);
     background-size: 350px;
@@ -142,7 +142,7 @@ span{
 table{
     margin-top: 60px;
     border-top: 1px solid hsl(227, 10%, 46%);
-    width: 450px;
+    width: 400px;
     border-spacing: 0px;
     /* text-align: center; */
 }
