@@ -65,22 +65,23 @@ body{
 .content{
     border-radius: 20px;
     width: 400px;
-    height: 5   00px;
+    height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,25%);
+    transform: translate(-50% ,50%);
     text-align: center;
     background-color: white;
+    margin-top: -100px;
 }
-@media (min-width:375px) and (max-width:768px){
+/* @media (min-width:375px) and (max-width:768px){
     .content{
         border-radius: 20px;
         width: 400px;
         transform: translate(-50% ,50%);
     }
 
-}
+} */
 
 .content .container {
     display: flex;
@@ -99,10 +100,10 @@ body{
     border-top-right-radius: 20px;
     position: relative;
 }
-@media (min-width:375px) and (max-width:768px){
+/* @media (min-width:375px) and (max-width:768px){
     .content .container .top{
         width: 400px;}
-}
+} */
 .content .container .top::after{
     content: "";
     position: absolute;
@@ -146,9 +147,9 @@ table{
     border-spacing: 0px;
     /* text-align: center; */
 }
-@media (max-width:768px)and (max-width:768px){
+/* @media (max-width:768px)and (max-width:768px){
     table{width: 400px;}
-}
+} */
 
 table .number td h2 {
     margin: 5px;
