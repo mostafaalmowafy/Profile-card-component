@@ -13,13 +13,7 @@
     
     
 }
-@media (min-width:375px) and (max-width :992px){
-    .container {
-        width: 100%;
 
-        
-        }  
-}
 /* Small */
 @media (min-width: 768px ) {
     .container {
@@ -49,6 +43,12 @@ body{
     background-position: -150% 60% ,850px 500px  ;
     position: relative;
 }
+@media (min-width:375px){
+    body{
+        background-size: 120%;
+        background-position: -230px -310px ,200px 630px  ;
+    }
+}
 /* End Global Rules */
 .content{
     border-radius: 20px;
@@ -61,6 +61,15 @@ body{
     text-align: center;
     background-color: white;
 }
+@media (min-width:375px) and (max-width:768px){
+    .content{
+        border-radius: 20px;
+        width: 400px;
+        transform: translate(-50% ,50%);
+    }
+
+}
+
 .content .container {
     display: flex;
     flex-direction: column;
@@ -70,13 +79,17 @@ body{
 }
 
 .content .container .top{
-    width: 100%;
+    width: 450px;
     height: 180px;
     background-image: url(../images/bg-pattern-card.svg);
     background-size: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     position: relative;
+}
+@media (min-width:375px) and (max-width:768px){
+    .content .container .top{
+        width: 400px;}
 }
 .content .container .top::after{
     content: "";
@@ -89,6 +102,11 @@ body{
     background-repeat: no-repeat;
     border:5px solid white ;
     border-radius: 50%;
+}
+@media (max-width:768px)and (max-width:768px){
+    .content .container .top::after{
+        left: 150px;
+    }
 }
 .content .container .personal {
     padding-top: 50px;
@@ -115,6 +133,9 @@ table{
     width: 450px;
     border-spacing: 0px;
     /* text-align: center; */
+}
+@media (max-width:768px)and (max-width:768px){
+    table{width: 400px;}
 }
 
 table .number td h2 {
