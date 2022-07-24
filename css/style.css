@@ -43,7 +43,19 @@ body{
     background-position: -150% 60% ,850px 500px  ;
     position: relative;
 }
-@media (min-width:375px){
+@media (min-width:9px) and (max-width:1440PX){
+    body{
+        background-size: 80%;
+        background-position: -280px -480px ,600px 580px  ;
+    }
+}
+@media (min-width:768px) and (max-width:992PX){
+    body{
+        background-size: 80%;
+        background-position: -230px -310px ,380px 630px  ;
+    }
+}
+@media (min-width:375px) and (max-width:768px){
     body{
         background-size: 120%;
         background-position: -230px -310px ,200px 630px  ;
